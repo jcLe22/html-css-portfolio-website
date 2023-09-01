@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>john's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+<!--NAV-->
+
+
+    <navbar id="navbar">
+        <div class="logo">
+            <a href="#welcome-section"><h2><span>j</span>ohn</h2></a>
+        </div>
+
+        <div class="nav">
+            <ul>
+                <a href="#welcome-section"><li>
+                    <i class="fa-solid fa-house icon-center"></i>
+                    <figcaption>Home</figcaption>
+                </li></a>
+                <a href="#about-section"><li>
+                    <i class="fa-solid fa-user"></i>
+                    <figcaption>About Me</figcaption>
+                </li></a>
+                <a href="#projects"><li>
+                    <i class="fa-solid fa-folder"></i>
+                    <figcaption>Projects</figcaption>
+                </li></a>
+            </ul>
+        </div>
+    </navbar>
+
+
+<!--HOME-->
+
+
+    <div class="page-container" id="welcome-section">
+        <div class="intro-container">
+            <h1 id="intro-name">Hello, my name is John.</h1> <br>
+            <p id="intro-message">I am an aspiring web developer. I am studying web development using online platforms such as Udemy and FreeCodeCamp. You may contact me using the links below:</p>
+            <br>
+            <div class="socials-button">
+                <div><a href="https://www.linkedin.com/in/john-christian-lebanto-962bb6194/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></div>
+                <div><a href="https://github.com/jcLe22" target="_blank" id="profile-link"><i class="fa-brands fa-github"></i></a></div>
+                <div><a href="mailto:johnchristian.lebanto@gmail.com"><i class="fa-solid fa-envelope"></i></a></div>
+            </div>
+        </div>
+
+        <div class="intro-picture">
+            <div>
+                <img src="./images/sitting-john.jpg" alt="my picture">
+            </div> 
+        </div>
+    </div>
+
+
+<!--ABOUT ME-->
+
+
+    <div class="page-container" id="about-section">
+        <h3>A little about me...</h3>
+        <div class="engineer-experience about-box">
+            <div class="engineer-pic flaticon">
+                <img id="engineer-pic" src="./images/engineer.png" alt="engineering degree">
+                    <figcaption><a href="https://www.flaticon.com/free-icons/engineer" title="engineer icons" target="_blank">Engineer icons created by Eucalyp - Flaticon</a></figcaption>
+            </div>
+            <div>
+            <p>I studied at Saint Louis University where I got a Bachelor's Degree in Civil Engineering.
+                I did work as a Civil Engineer for more than 2 years before deciding to take a leap of faith and start pursuing a career in programming.
+                I have always been passionate with computer technology ever since I was kid although, being exposed to video games did helped with that to be honest.
+            </p>
+            </div>
+            
+        </div>
+        <div class="developer-experience about-box">
+            <div>
+            <p>
+                I am currently on track in learning the fundamentals of <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript.</strong>
+                In the future, I would like to apply these skills to create fully functional websites with real world applications so as to help other people.
+            </p>
+            </div>
+            <div class="developer-pic flaticon">
+                <img id="programmer-pic" src="./images/programmer.png" alt="programmer career">
+                    <figcaption><a href="https://www.flaticon.com/free-icons/programmer" title="programmer icons" target="_blank">Programmer icons created by Freepik - Flaticon</a></figcaption>
+            </div>
+        </div>
+    </div>
+
+
+<!--PROJECTS SECTION-->
+
+
+    <div class="page-container" id="projects">
+        <div class="pj-title-container"><h3>Projects</h3></div>
+        <div class="project-list">
+            <div class="project-tile" id="tofu-shop">
+                <h4>Fujiwara Tofu Shop Landing Page</h4>
+                <a href="https://jcle22.github.io/html-css-product-landing-page/" id="project1" target="_blank"><img src="./images/project-landing-page-sc.png" alt="fujiwara tofu landing page sc"></a>
+                <figcaption>freeCodeCamp Certification Project <br> <i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3-alt"></i></figcaption>
+            </div>
+            <div class="project-tile coming-soon">
+                <h4>soon...</h4>
+            </div>
+            <div class="project-tile coming-soon">
+                <h4>soon...</h4>
+            </div>
+            <div class="project-tile"></div>
+        </div>
+    </div>
+</body>
+</html>
