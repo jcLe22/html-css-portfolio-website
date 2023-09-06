@@ -245,23 +245,28 @@ body {
     padding: 15px;
     display: grid;
     align-items: center;
-}
-#project1 img {
-    width: 100%;
-    height: auto;
+    transition: all 300ms ease-in;
 }
 
-#tofu-shop {
-    transition: all 500ms ease-in-out;
-}
-#tofu-shop:hover {
+.project-tile:hover {
     transform: scale(1.2);
     background-color: var(--color3);
     border-radius: 20px;
 }
+.project-preview img {
+    width: 100%;
+    height: auto;
+}
 
 .coming-soon {
+    padding: 15px;
+    display: grid;
+    align-items: center;
     background-color: var(--color2);
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--color4);
 }
 .coming-soon:hover {
     background-color: var(--color3);
